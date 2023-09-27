@@ -15,21 +15,32 @@ ul#countdown {
 }
 ul#countdown li {
     display: inline-block;
-    font-size: 8vw;
+    font-size: 1.5rem;
+    font-weight: 900;
     margin: 0 -3px 0 0;
     width: 20%;
     color: #0032A0;
 }
+@media only screen and (min-width: 600px) {
+    ul#countdown li {
+      font-size: 8rem;
+    }
+  }
 ul#countdown li .label {
     font-size: 0.8rem;
     text-transform: uppercase;
 }
 p {
-    font-size: 3.5vw;
+    font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
+    font-weight: 700;
     color: #0032A0;
     text-align: center;
+}
+@media only screen and (min-width: 600px) {
+  p {
+    font-size: 5rem;
+  }
 }
 .boton {
     padding:5% ;
@@ -62,4 +73,3 @@ a.button:hover{
     margin:0.2em auto;
     }
 }
-  
